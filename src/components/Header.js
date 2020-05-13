@@ -2,7 +2,7 @@ import React from 'react'
 import {makeStyles} from "@material-ui/core/styles";
 import {Typography,Avatar,Grid,Box} from "@material-ui/core";
 import Typed from "react-typed"
-import avatar from "../avatar.png"
+import avatar from "../images/dew.png"
 
 // css styles
 const useStyles = makeStyles(theme=> ({
@@ -38,11 +38,18 @@ const Header = () => {
            <Avatar className={classes.avatar} src={avatar} />
           </Grid>
           <Typography className={classes.title} variant="h4">
-            <Typed strings={["Dewa Qintoro"]} typeSpeed={40} />
+            <Typed strings={["Dewa Qintoro"]} typeSpeed={20} />
           </Typography>
           <br/>
           <Typography className={classes.subtitle} variant="h5">
-            <Typed strings={["Wadudu","ono ono wae iki","wes mboh karepmu"]} typeSpeed={40} backSpeed={60} loop/>
+            <Typed strings={["buah apa yang cocok untuk jomblo ??","Buahahahaha :)",
+            "Penyanyi luar negeri yang susah nelen ?","Ed sered :)",
+            "Tentara apa yang paling kecil ?","Tentara sekutu :)",
+            "Lemari apa yang bisa masuk kantong ?","Lema ribu :)",
+            "Sayur apa yang ada pangkatnya ?","Sayur mayor :)",
+            "Pemain bola apa yang beratnya 3 kg?","Bambang tabung gas :)",
+            "#2020TetepReceh @dewaqintoro"
+            ]} typeSpeed={40} backSpeed={60} loop/>
           </Typography>
         </Box>
     )
