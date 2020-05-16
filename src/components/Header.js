@@ -38,11 +38,11 @@ const Header = () => {
            <Avatar className={classes.avatar} src={avatar} />
           </Grid>
           <Typography className={classes.title} variant="h4">
-            <Typed strings={["Dewa Qintoro"]} typeSpeed={20} />
+            <Typed strings={["#2020TetepReceh"]} typeSpeed={20} />
           </Typography>
           <br/>
           <Typography className={classes.subtitle} variant="h5">
-            <Typed strings={["buah apa yang cocok untuk jomblo ??","Buahahahaha :)",
+            <Typed strings={["Buah apa yang cocok untuk jomblo?","Buahahahaha :)",
             "Penyanyi luar negeri yang susah nelen ?","Ed sered :)",
             "Tentara apa yang paling kecil ?","Tentara sekutu :)",
             "Lemari apa yang bisa masuk kantong ?","Lema ribu :)",

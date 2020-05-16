@@ -99,7 +99,7 @@ const Navbar = () => {
             <ArrowBack style={{color:"tomato"}}/>
           </IconButton>
           <Typography varion="h5" style={{color:"tan"}}>
-            Portfolio
+            Menu
           </Typography>
           <MobilRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider("right", false)}>
             {sideList("right")}
