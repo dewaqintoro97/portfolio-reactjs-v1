@@ -15,7 +15,7 @@ import {
   Typography,
   Box
 } from "@material-ui/core";
-
+ 
 import {
   ArrowBack,
   AssignmentInd,
@@ -23,13 +23,13 @@ import {
   Apps,
   ContactMail
 } from "@material-ui/icons"
-import avatar from "../avatar.png"
+import avatar from "../images/dew.png"
 
-// css style
+// css style sidebar
 const useStyles = makeStyles(theme => ({
   menuSliderContaainer:{
     width: 250,
-    background: "#511",
+    background: "#574b90",
     height: "100%"
   },
   avatar:{
@@ -39,7 +39,7 @@ const useStyles = makeStyles(theme => ({
     height: theme.spacing(13)
   },
   listItem:{
-    color: "tan"
+    color: "#d1d8e0"
   }
 }));
 
@@ -60,7 +60,7 @@ const menuItems = [
   },
   {
     listIcon: <ContactMail/>,
-    listText: "COntact"
+    listText: "Contact"
   }
 ]
 
@@ -93,12 +93,12 @@ const Navbar = () => {
   return (
     <>
     <Box component="nav">
-      <AppBar position="static" style={{background:"#222"}}>
+      <AppBar position="static" style={{background:"#786fa6"}}>
         <Toolbar>
           <IconButton onClick={toggleSlider("right", true)}>
-            <ArrowBack style={{color:"tomato"}}/>
+            <ArrowBack style={{color:"red"}}/>
           </IconButton>
-          <Typography varion="h5" style={{color:"tan"}}>
+          <Typography varion="h5" style={{color:"white"}}>
             Menu
           </Typography>
           <MobilRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider("right", false)}>

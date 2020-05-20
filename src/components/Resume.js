@@ -5,7 +5,7 @@ import Navbar from "./Navbar"
 
 const useStyles = makeStyles(theme=>({
     mainCOntainer:{
-        background: "#233"
+        background: "#40407a"
     },
     timeLine:{
         position: "relative",
@@ -73,7 +73,7 @@ const useStyles = makeStyles(theme=>({
         maxWidth: "9.37rem",
         margin: "0 3rem 0 auto",
         fontSize: "1.8rem",
-        background: "tomato",
+        background: "#c44569",
         color: "white",
         lineHeight: 1,
         padding: "0.5rem 0 1rem",
@@ -93,7 +93,7 @@ const useStyles = makeStyles(theme=>({
         }
     },
     heading: {
-        color: "tomato",
+        color: "#ff793f",
         padding: "3rem 0",
         textTransform: "uppercase"
     },
@@ -121,12 +121,12 @@ const Resume = () => {
 
                     <Box component="div" className={classes.timeLineItem}> 
                         <Typography variant="h5" align="center" className={classes.subHeading}>
-                            web design
+                            web design 
                         </Typography>
-                        <Typography variant="body1" align="center" style={{color:"tomato"}}>
+                        <Typography variant="body1" align="center" style={{color:"white"}}>
                             company name where worked
                         </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                        <Typography variant="subtitle1" align="center" style={{color:"#ffc1e3"}}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor maxime beatae fugiat fugit esse id voluptatibus natus praesentium explicabo eligendi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, non.
                         </Typography>
                     </Box>

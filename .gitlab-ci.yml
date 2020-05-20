@@ -1,0 +1,53 @@
+# Node docker image on which this would be run
+image: node:10.16.3
+
+cache:
+  paths:
+    - node_modules/
+
+stages:
+  - test
+  - deploy_production
+
+# Job 1:
+
+Test:
+  stage: test
+  script:
+    - npm install
+
+# Job 2:
+# Deploy to staging
+
+Production:
+  image: ruby:latest
+  only:
+    - master
+  stage: deploy_production
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_API_KEY
+
+
+
+# form gitlab
+
+
+# image: "ruby:2.5"
+
+# before_script:
+#   - apt-get update -qq && apt-get install -y -qq sqlite3 libsqlite3-dev nodejs
+#   - ruby -v
+#   - which ruby
+#   - gem install bundler --no-document
+#   - bundle install --jobs $(nproc)  "${FLAGS[@]}"
+
+# rspec:
+#   script:
+#     - bundle exec rspec
+
+# rubocop:
+#   script:
+#     - bundle exec rubocop
