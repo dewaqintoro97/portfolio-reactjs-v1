@@ -20,7 +20,8 @@
     "react-typed": "^1.2.0"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
+    "server":"node server.js",
     "start-react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
