@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio-reactjs-v1/static/css/main.8702d27e.chunk.css",
+    "main.js": "/portfolio-reactjs-v1/static/js/main.8adf6233.chunk.js",
+    "runtime-main.js": "/portfolio-reactjs-v1/static/js/runtime-main.5caa7655.js",
+    "static/js/2.5c406574.chunk.js": "/portfolio-reactjs-v1/static/js/2.5c406574.chunk.js",
+    "index.html": "/portfolio-reactjs-v1/index.html",
+    "precache-manifest.a87ca92b20c60e6092a34081ac7e9c34.js": "/portfolio-reactjs-v1/precache-manifest.a87ca92b20c60e6092a34081ac7e9c34.js",
+    "service-worker.js": "/portfolio-reactjs-v1/service-worker.js",
+    "static/js/2.5c406574.chunk.js.LICENSE.txt": "/portfolio-reactjs-v1/static/js/2.5c406574.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio-reactjs-v1/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/dew.png": "/portfolio-reactjs-v1/static/media/dew.7760aecd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5caa7655.js",
+    "static/js/2.5c406574.chunk.js",
+    "static/css/main.8702d27e.chunk.css",
+    "static/js/main.8adf6233.chunk.js"
+  ]
+}
